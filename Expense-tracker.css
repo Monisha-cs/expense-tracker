@@ -1,0 +1,97 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .container {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        width: 400px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #6c63ff;
+        margin-bottom: 20px;
+    }
+
+    .balance {
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .summary {
+        display: flex;
+        justify-content: space-between;
+        background: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .income { color: green; font-weight: bold; }
+    .expense-text { color: red; font-weight: bold; }
+
+    .form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .form button {
+        width: 100%;
+        padding: 10px;
+        background: #6c63ff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .form button:hover { background: #5a52d5; }
+
+    ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .plus { border-left: 4px solid green; background: #f0fff0; }
+    .minus { border-left: 4px solid red; background: #fff0f0; }
+
+    .delete-btn {
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 2px 8px;
+        cursor: pointer;
+    }
